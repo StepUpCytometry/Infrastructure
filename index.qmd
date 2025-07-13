@@ -5,6 +5,10 @@ toc: true
 filters:
   - webr
 engine: knitr
+webr:
+  repos:
+    - https://bioc.r-universe.dev
+    - https://repo.r-wasm.org
 ---
 
 ```{r, include = FALSE}
