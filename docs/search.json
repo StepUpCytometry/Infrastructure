@@ -2,8 +2,8 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Cytometry In R",
+    "title": "Introduction",
     "section": "",
-    "text": "This is here primarily so that I can test WebR’s functionalities when it comes to delivering a new way to teach CytometryInR.\nTo get WebR ready for our purposes…\nNavigate to terminal run following\n#| eval: FALSE\nquarto add coatless/quarto-webr\nDo you trust author, yes Embedded webr cells, yes View documentation, no\nNext, change yaml header at top of document to include a filters: webr\nAnd then change the extension on the code block.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "text": "Introduction\nIn this module, we will be working with the infrastructure R packages available via the Bioconductor to work with .fcs files in R. We will compare the similarities and differences between the flowCore and flowWorkspace. As with the other modules, we will be taking advantage of WebR’s functionalities to demonstrate some of the functionalities within the browser. Please download the materials for this module for more computational intensive components.\n\n\nBasic concepts\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n?flowWorkspace::gh_pop_get_data()\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   }
 ]
